@@ -10,7 +10,10 @@
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
-
+  <properties>
+    <sonar.organization>test-sonarqube-sonarcloud</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
 
 
   <modules>
